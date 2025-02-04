@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Le Guide Informatique </title>
+		<link href="style.css" rel="stylesheet">
+		<link href="../media/images/logo.png" rel="icon">
+		<link href="../icons/css/fontawesome.css" rel="stylesheet">
+  		<link href="../icons/css/brands.css" rel="stylesheet">
+  		<link href="../icons/css/solid.css" rel="stylesheet">
+	</head>
+	<body>
+		<nav>
+			<li>
+				<a href="../contact/contact.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+					<div class="icon">
+						<i class="fa fa-headset" aria-hidden="true"></i>
+						<i class="fa fa-headset" aria-hidden="true"></i>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="../forum/forum.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+					<div class="icon">
+						<i class="fa fa-comments" aria-hidden="true"></i>
+						<i class="fa fa-comments" aria-hidden="true"></i>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="../articles/articles.html" id="nav-active" onmouseover="background(this)" onmouseout="backgroundback(this)">
+					<div class="icon">
+						<i class="fa fa-newspaper" aria-hidden="true"></i>
+						<i class="fa fa-newspaper" aria-hidden="true"></i>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="../about/about.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+					<div class="icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="../index.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+					<div class="icon">
+						<i class="fa fa-home" aria-hidden="true"></i>
+						<i class="fa fa-home" aria-hidden="true"></i>
+					</div>
+				</a>
+			</li>
+			<img class="logo" src="../media/images/logo.png">
+		</nav>
+        <div class="sec-articles">
+			<script src="../javascript.js"></script>
+            <div class="win-11" onmouseover="boxretrecir(this)" onmouseout="boxagrandir2(this)" onclick="alerter();backgroungchange(this)">
+				<img class="image"src="../media/images/windows11.png">
+                <h3>Windows 11</h3>
+                <p>Le nouveau Système d'Exploitation de Microsoft qui fait polémique.</p>
+            </div>
+            <div class="win-10" onmouseover="boxretrecir(this)" onmouseout="boxagrandir2(this)" onclick="alerter();backgroungchange(this)">
+                <img class="image" src="../media/images/windows10.png">
+                <h3>Windows 10</h3>
+                <p>Une fin proche après l'arrivée du nouveau système ?</p>
+            </div>
+            <div class="rasp-5" onmouseover="boxretrecir(this)" onmouseout="boxagrandir2(this)"onclick="document.location='raspberrypi5/raspberrypi5.html'">
+                <img class="image" src="../media/images/raspberrypi5.png">
+                <h3>Raspberry Pi 5</h3>
+                <p>Le nouveau raspberry pi aussi puissant qu'un ordinateur !</p>
+            </div>
+        </div>
+    </body>
+</html>

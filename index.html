@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Le Guide Informatique </title>
+		<link href="style.css" rel="stylesheet">
+		<link href="media/images/logo.png" rel="icon">
+		<link href="icons/css/fontawesome.css" rel="stylesheet">
+  		<link href="icons/css/brands.css" rel="stylesheet">
+  		<link href="icons/css/solid.css" rel="stylesheet">
+	</head>
+	<body>
+		<section>
+			<nav>
+				<li>
+					<a href="contact/contact.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+						<div class="icon">
+							<i class="fa fa-headset" aria-hidden="true"></i>
+							<i class="fa fa-headset" aria-hidden="true"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="forum/forum.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+						<div class="icon">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="articles/articles.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+						<div class="icon">
+							<i class="fa fa-newspaper" aria-hidden="true"></i>
+							<i class="fa fa-newspaper" aria-hidden="true"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="about/about.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+						<div class="icon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="index.html" id="nav-active" onmouseover="background(this)" onmouseout="backgroundback(this)">
+						<div class="icon">
+							<i class="fa fa-home" aria-hidden="true"></i>
+							<i class="fa fa-home" aria-hidden="true"></i>
+						</div>
+					</a>
+				</li>
+				<img class="logo" src="media/images/logo.png" alt="logo">
+			</nav>
+	    </section>
+		<section class="bienvenu">
+			<h1>
+				Bienvenu sur le Guide Informatique!
+			</h1>
+			<p>
+				La référence de l'informatique.
+			</p>
+		</section>
+		<section class="sec-updates">
+			<div class="text">
+				<h1>
+					Dernières mises à jour :
+				</h1>
+				<h4>
+					Développement en cours du fil de discussion.
+				</h4>
+				<p class="updates">
+					Un fil de discussion pour discuter entre passionées de l'informatique est enfin ouvert en phase de test!
+					Néanmoins, tout ce qui est envoyé dessus n'est pas enregistré pour le moment.
+				</p>
+			</div>
+			<div class="icon">
+				<img src="media/images/discussion.png">
+			</div>
+
+		</section>
+		<section class="sec-articles-last">
+			<h1>Dernières sorties d'articles :</h1>
+			<section class="articles">
+				<section class="Windows11" onmouseover="boxagrandir(this)" onmouseout="boxretrecir(this)" onclick="alerter();backgroungchange(this)">
+					<img class="image" src="media/images/windows11.png" alt="image">
+					<h2 class="titre">Windows 11 :</h2>
+					<h2>Le nouvel système d'exploitation critiqué par un grand nombre de passionées !</h2>
+				</section>
+				<script src="javascript.js"></script>
+				<section class="Windows10" onmouseover="boxagrandir(this)" onmouseout="boxretrecir(this)" onclick="alerter();backgroungchange(this)">
+					<img class="image" src="media/images/windows10.png" onclick="document.location=''">
+					<h2 class="titre">Windows 10 :</h2>
+					<h2>Une fin proche après son remplacement par  Windows 11 ?</h2>
+				</section>
+				<section class="Rasp5" onmouseover="boxagrandir(this)" onmouseout="boxretrecir(this)">
+					<img class="image" src="media/images/raspberrypi5.png" onclick="document.location='articles/raspberrypi5/raspberrypi5.html'">
+					<h2 class="titre">Raspberry Pi 5 :</h2>
+					<h2>Le nouveau raspberry pi aussi puissant qu'un ordinateur !</h2>
+				</section>
+			</section>
+			</section>
+		</section>
+	</body>
+</html>

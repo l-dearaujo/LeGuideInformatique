@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html  lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Le Guide Informatique </title>
+    <link href="style.css" rel="stylesheet">
+    <link href="../media/images/logo.png" rel="icon">
+    <link href="../icons/css/fontawesome.css" rel="stylesheet">
+    <link href="../icons/css/brands.css" rel="stylesheet">
+    <link href="../icons/css/solid.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+</head>
+<body>
+    <nav>
+        <li>
+            <a href="../contact/contact.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+                <div class="icon">
+                    <i class="fa fa-headset" aria-hidden="true"></i>
+                    <i class="fa fa-headset" aria-hidden="true"></i>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="../forum/forum.html" id="nav-active" onmouseover="background(this)" onmouseout="backgroundback(this)">
+                <div class="icon">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="../articles/articles.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+                <div class="icon">
+                    <i class="fa fa-newspaper" aria-hidden="true"></i>
+                    <i class="fa fa-newspaper" aria-hidden="true"></i>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="../about/about.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+                <div class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="../index.html" onmouseover="background(this)" onmouseout="backgroundback(this)">
+                <div class="icon">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                </div>
+            </a>
+        </li>
+        <img class="logo" src="../media/images/logo.png">
+    </nav>
+    <script src="../javascript.js"></script>
+    <section class="sec">
+        <h1 class="title">Bienvenu sur le fil de discussion !</h1>
+        <p class="p"><span class="texte"></span></p>
+    </section>
+    <div id="chat-box"></div>
+    <input type="text" id="message-input" placeholder="Écrit ton message...">
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body{
+	font-family: sans-serif
+}
+
+/* Barre de navigation */
+
+	nav{
+		position: fixed;
+		top: 0;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		left: 0px;
+		overflow: hidden;
+		list-style-type: none;
+		background-color: #EDE4E2;
+		z-index: 100;
+	}
+
+	a{
+		display: block;
+		padding: 14px 16px;
+		cursor: pointer;
+	}
+
+	li{
+		float: right;
+		display: inline;
+	}
+
+	nav li a .icon{
+		width: 50px;
+		height: 40px;
+		text-align: center;
+		overflow: hidden;
+		margin: 0px;
+
+	}
+
+	nav li a .icon .fa{
+		width: 100%;
+		height: 100%;
+		line-height: 40px;
+		font-size: 34px;
+		transition: 0.5s;
+		color: #000;
+	}
+	
+	#nav-active{
+		background-color: #85C1E9;
+	}
+
+	.logo{
+		float: left;
+		margin-left: 10px;
+		width: 70px;
+		padding: 5px
+	}
+/* Section d'acceuil */
+	section{
+		margin: 1.875rem 3.125rem auto;
+	}
+
+	.bienvenu{
+		margin: 90px 50px auto;
+		color: black;
+		text-align: center;
+	}
+
+	.sec-updates{
+		border-radius: 10px;
+		box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+		display: flex;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.sec-updates .text{
+		text-align: center;
+		margin-left: 50px;
+		padding: 12px;
+	}
+
+	.sec-updates h1, .sec-updates h4, .sec-updates p{
+		margin-right:50%;
+	}
+
+	.sec-updates h1{
+		text-decoration: underline
+	}
+	
+	.sec-updates img{
+		max-width: 25rem;
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-left: -5rem;
+	}
+
+	.sec-articles-last h1{
+		text-decoration: underline;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.articles {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+		gap: 1rem;
+		margin-left: -2rem;
+	}
+	
+	.Windows11, .Windows10, .Rasp5 {
+		justify-content: left;
+		text-align: center;
+		border-radius: 0.625rem;
+		box-shadow: 6px 6px 25px #a09e9e;
+		cursor: pointer;
+		max-width: 31rem; 
+		min-width: 20rem; 
+		width: 100%;
+		height: 27.5rem;
+	}
+	
+	.Windows11 .titre, .Windows10 .titre, .Rasp5 .titre {
+		text-decoration: underline;
+		margin-top: 0rem;
+	}
+	
+	.Windows11 .image, .Windows10 .image, .Rasp5 .image {
+		width: 100%;
+		max-width: 25rem;
+	}
+	
+	@media only screen and (max-width:1080px) {
+		.articles {
+			margin-left: -10%;
+		}
+		nav li a .icon {
+			width: 40px;
+			height: 50px;
+		}
+	}
